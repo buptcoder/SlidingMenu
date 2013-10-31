@@ -588,6 +588,10 @@ public class SlidingMenu extends RelativeLayout {
 		mViewBehind.setWidthOffset(i);
 	}
 
+	public void setRightBehindOffset(int offset) {
+	    mViewBehind.setSecondaryWidthOffset(offset);
+	}
+
 	/**
 	 * Sets the behind offset.
 	 *
